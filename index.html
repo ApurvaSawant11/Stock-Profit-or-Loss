@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <title>Stock Profit or Loss</title>
+</head>
+<body>
+    <header>
+      <h1>Stock Profit or Loss Calculator</h1>
+    </header>
+
+    <main>
+      <form>
+        <label>Enter Initial Price: </label>
+        <input type="number" id="initial-price" min="1" placeholder="Add Initial Price Here..." required/>
+
+        <label>Enter Quantity: </label>
+        <input type="number" id="quantity" min="1" placeholder="Add Total Quantity You Purchased" required/>
+
+        <label>Enter Current Price:</label>
+        <input type="number" id="current-price" placeholder="Add Current Price Here..." required/>
+
+        <button type="submit" id="checkBtn">Tell Me!</button>
+
+        <div class="output"> Output will be shown here</div>
+
+        <ul>
+          <li class="footerLink">
+            <a href="https://github.com/ApurvaSawant11" target="_blank"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
+          </li>
+
+          <li class="footerLink">
+            <a href="https://twitter.com/ApurvaSawant11" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+          </li>
+
+          <li class="footerLink">
+            <a href="https://www.linkedin.com/in/apurvasawant11" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+          </li>
+
+          <li class="footerLink">
+            <a href="https://apurvasawant11.netlify.app/" target="_blank"><i class="fas fa-briefcase fa-2x"></i></a>
+          </li>
+        </ul>
+
+        <p>Made with ❤️ by Apurva Sawant</p>  
+           
+      </form>
+    </main>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
